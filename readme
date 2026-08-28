@@ -1,0 +1,24 @@
+## Licensing
+
+Unless stated otherwise, the contents of this repository are released under
+CC BY 4.0 (data) and the MIT License (code); see `LICENSE`.
+
+### 3D models (`models/`)
+
+The mesh files in `models/` were prepared in Blender from the nominal CAD data
+published by the component manufacturers (Swagelok SS-400-9, SS-810-61-4,
+SS-810-3; Schwer F-GFA1-150-4Li). Our contribution consists of the conversion to
+textured OBJ format, scaling, alignment to the object coordinate system used in
+the evaluation, and UV unwrapping. The underlying geometry originates from the
+manufacturers' CAD data, and any rights therein remain with the respective
+manufacturer.
+
+These files are provided to document the models used in the reported
+evaluation. The repository licence does not extend to them, and they are not
+offered for commercial reuse or redistribution. If you intend to use the
+component geometry beyond reproducing the results presented here, please obtain
+the CAD data directly from the manufacturer under their terms of use.
+
+The object coordinate system of each model is defined as shown in Figure 4 of
+the accompanying publication; all ground-truth and estimated poses in `data/`
+refer to this definition.

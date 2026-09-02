@@ -5,8 +5,8 @@ ground-truth and estimated poses, and the scripts needed to reproduce
 the reported registration-accuracy results.
 
 > **Paper:** Masuhr, Koch, Oels, Schüppstuhl (2025). *FoundationPose evaluation
-> for AR-guided industrial inspection.* Institute for Production Engineering and
-> Machine Tools (IFPT), Hamburg University of Technology (TUHH).
+> for AR-guided industrial inspection.* Institute of Aircraft Production Technology (IFPT),
+> Hamburg University of Technology (TUHH).
 
 ---
 
@@ -148,7 +148,7 @@ If you use this dataset or code, please cite:
   title  = {TBD},
   author = {Masuhr and Koch and Oels and Schüppstuhl},
   year   = {2025},
-  note   = {Institute for Production Engineering and Machine Tools (IFPT),
+  note   = {Institute of Aircraft Production Technology (IFPT),
             Hamburg University of Technology (TUHH)}
 }
 ```

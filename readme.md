@@ -16,15 +16,14 @@ The goal of the evaluation is to quantify how accurately FoundationPose register
 industrial components under a realistic eye-in-hand setup, where the camera is
 mounted on a robot end-effector. For each object we compare:
 
-- the **estimated pose** returned by FoundationPose, and
-- a **ground-truth pose** derived from robot forward kinematics and hand-eye
-  calibration,
+- the **estimated pose** returned by FoundationPose
+- a **ground-truth pose** derived from robot forward kinematics and manual object placement
 
 expressed in a common robot base frame. Two FoundationPose operating modes are
 evaluated:
 
-- **One Shot** — single-frame model-based registration, and
-- **Tracking** — pose propagated across the sequence.
+- **One Shot** — single-frame model-based registration
+- **Tracking** — pose propagated across the sequence
 
 All translations are given in **millimetres (mm)**; rotations are the upper-left
 3×3 block of each 4×4 homogeneous transform.
@@ -46,7 +45,7 @@ All translations are given in **millimetres (mm)**; rotations are the upper-left
 │   │   ├── masks/                  # Seed masks for FoundationPose initialisation
 │   │   ├── mesh/                   # Object mesh + material used for this sequence
 │   │   └── cam_K.txt               # 3×3 camera intrinsics
-│   ├── SS-400-9/out/               # (same layout; note the extra `out/` level)
+│   ├── SS-400-9/out/               # (same layout)
 │   ├── SS-810-3/
 │   ├── SS-810-61-4/
 │   └── textures/                   # Shared surface texture (Metal024_4K)

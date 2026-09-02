@@ -140,15 +140,32 @@ python pose_calculation.py
 
 ## Citation
 
-If you use this dataset or code, please cite:
+If you use this dataset or code, please cite both the paper and the archived
+dataset.
+
+**Paper** (currently under review; this entry will be updated upon publication):
 
 ```bibtex
-@misc{masuhr2025foundationpose,
-  title  = {TBD},
-  author = {Masuhr and Koch and Oels and Schüppstuhl},
-  year   = {2025},
-  note   = {Institute of Aircraft Production Technology (IFPT),
-            Hamburg University of Technology (TUHH)}
+@article{masuhr2025foundationpose,
+  author  = {Masuhr, Christian and Koch, Julian and Oels, Tim and Sch{\"u}ppstuhl, Thorsten},
+  title   = {Evaluating {FoundationPose} Object Registration Accuracy for {AR}-Guided Industrial Inspection},
+  journal = {Scientific Reports},
+  year    = {2025},
+  note    = {Under review}
+  DOI     = {https://doi.org/10.21203/rs.3.rs-7992985/v1} (DOI of preprint, has to be changed to published manuscript)
+}
+```
+
+**Dataset and evaluation code:**
+
+```bibtex
+@misc{masuhr2025dataset,
+  author    = {Masuhr, Christian},
+  title     = {Dataset and evaluation code for FoundationPose object registration accuracy},
+  year      = {2025},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21806793},
+  note      = {Concept DOI, resolves to the latest version. Please cite the specific version you used.}
 }
 ```
 
